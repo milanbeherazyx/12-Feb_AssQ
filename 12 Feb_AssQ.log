@@ -1,0 +1,36 @@
+2023-03-23 09:21:24,501 ERROR division by zero
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1522/995873072.py", line 9, in <module>
+    result = a/b
+ZeroDivisionError: division by zero
+2023-03-23 09:21:24,502 ERROR Error: division by zero
+2023-03-23 09:21:26,253 ERROR division by zero
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1522/656357750.py", line 5, in <module>
+    result = a/b
+ZeroDivisionError: division by zero
+2023-03-23 09:21:26,253 ERROR Error: division by zero
+2023-03-23 09:21:33,964 INFO The result is 0.6666666666666666
+2023-03-23 09:21:40,188 INFO The result is 0.6395348837209303
+2023-03-23 09:21:40,188 INFO The program has exited
+2023-03-23 09:21:42,711 ERROR Error: division by zero
+2023-03-23 09:21:42,711 ERROR Cannot divide by zero
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1522/2921268902.py", line 9, in <module>
+    result = divide(10, 0)
+  File "/tmp/ipykernel_1522/2921268902.py", line 4, in divide
+    raise ZeroDivisionError("Cannot divide by zero")
+ZeroDivisionError: Cannot divide by zero
+2023-03-23 09:21:44,144 ERROR Error: negative number
+2023-03-23 09:21:44,146 ERROR Cannot calculate square root of a negative number
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1522/1909676076.py", line 12, in <module>
+    result = calculate_square_root(-5)
+  File "/tmp/ipykernel_1522/1909676076.py", line 7, in calculate_square_root
+    raise NegativeNumberError("Cannot calculate square root of a negative number")
+NegativeNumberError: Cannot calculate square root of a negative number
+2023-03-23 09:21:45,301 ERROR An error occurred
+Traceback (most recent call last):
+  File "/tmp/ipykernel_1522/211979972.py", line 6, in <module>
+    raise CustomException("An error occurred")
+CustomException: An error occurred
